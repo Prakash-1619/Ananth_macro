@@ -1113,7 +1113,8 @@ if tab == "Saadiyat Island":
     
     X = prepare_input(model_input)
     base_price = model.predict(X)[0]
-    base_price = base_price * 1.07
+
+    base_price = base_price * 1.09
     # -------------------------------
     # FORECAST CONSTRUCTION
     # -------------------------------
